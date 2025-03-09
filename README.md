@@ -25,8 +25,8 @@ This Google Colab notebook helps identify missing partitions in BigQuery tables 
 
 ### Step 3: Find Missing Partitions
 - The user specifies whether to create a new Google Sheet and provides the sheet name for output.
-- A BigQuery SQL query identifies missing partitions dynamically based on the selected granularity.
-- If missing partitions are found, results are uploaded to Google Sheets and a link is provided; otherwise, a message confirms that no gaps exist.
+- A SQL query identifies missing partitions dynamically based on the selected granularity.
+- If missing partitions are found, results are uploaded to Google Sheets and a link is provided.
 
 ## Output
 - A table listing missing partition details, including table name, last known partition, next available partition, and the number of missing partitions based on granularity.
