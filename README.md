@@ -1,4 +1,4 @@
-# Partition Gap Finder in BigQuery
+# BigQuery Partition Gap Finder
 
 ## Overview
 This Google Colab notebook helps identify missing partitions in BigQuery tables using metadata from `INFORMATION_SCHEMA.PARTITIONS`. The process is divided into three steps:
